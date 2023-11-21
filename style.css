@@ -76,6 +76,7 @@ font-weight: normal;
 }
 .card-deck{
     display:flex;
+    flex-wrap: wrap;
     flex-grow: 1;   
     text-align: center;
     color: #1F2937;
