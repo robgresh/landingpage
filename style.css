@@ -79,6 +79,7 @@ font-weight: normal;
     flex-grow: 1;   
     text-align: center;
     color: #1F2937;
+    gap: 30px;
 }
 .card{
     height:100px;
@@ -88,6 +89,11 @@ font-weight: normal;
     border-style: solid;
     border-radius: 25px;
     border-color: #3882f6;
+}
+
+.card img{
+    height: 90px;
+    width: 90px;
 }
 
 .section-three{
