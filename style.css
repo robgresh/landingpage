@@ -8,6 +8,7 @@ body {
   font-family: Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial,
     sans-serif;
   font-weight: normal;
+  font-size: 2rem;
 }
 
 .header {
@@ -82,6 +83,7 @@ body {
 .card-deck {
   display: flex;
   align-items: baseline;
+  justify-content: center;
   flex-wrap: wrap;
   flex-grow: 1;
   text-align: center;
@@ -89,13 +91,12 @@ body {
   gap: 30px;
 }
 .card {
-  /* height: 100px;
-  width: 100px;
-  padding: 10px;
-  margin: 5px;
-  border-style: solid;
-  border-radius: 25px;
-  border-color: #3882f6; */
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  font-size: 1.4 rem;
 }
 
 .card img {
@@ -126,6 +127,11 @@ body {
 .section-four {
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+.section-four button {
+  font-size: 1.6rem;
 }
 
 .call {
