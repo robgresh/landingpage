@@ -89,6 +89,7 @@ body {
   text-align: center;
   color: #1f2937;
   gap: 30px;
+  font-size: 1.3rem;
 }
 .card {
   margin: 20px;
@@ -96,7 +97,7 @@ body {
   flex-direction: column;
   align-items: center;
   max-width: 150px;
-  font-size: 1.4 rem;
+  font-size: 1.2 rem;
 }
 
 .card img {
@@ -121,7 +122,7 @@ body {
 
 .wit {
   margin-left: auto;
-  margin-right: 10%;
+  margin-right: 40%;
   font-size: 36px;
 }
 .section-four {
